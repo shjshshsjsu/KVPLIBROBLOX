@@ -1,4 +1,4 @@
-local MyGUI = require(game.ServerScriptService.MyGUI)
+local MyGUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/KVPLIBROBLOX/main/Lib.lua"))()
 
 -- GUI çerçevesini oluştur
 local guiFrame = MyGUI:CreateFrame("Siyah Temalı GUI", UDim2.new(0, 300, 0, 200))
